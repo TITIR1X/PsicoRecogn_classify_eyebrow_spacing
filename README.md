@@ -25,6 +25,13 @@ Expresses emotions.
 Dreamer who shares his dreams.
 Spontaneous.
 Good ability to concentrate on activities.
+<div style="width:100px";>
+  <img src="https://user-images.githubusercontent.com/115203597/206662304-7cb7664b-4db0-48a7-a87d-ce9b5f0ab411.jpg" width="100" height="100" style="float:left;">
+  <img src="https://user-images.githubusercontent.com/115203597/206662309-dc06dfed-d7c0-46c4-9b4a-a8ac93a6f9e5.jpg" width="100" height="100" style="float:left;">
+  <img src="https://user-images.githubusercontent.com/115203597/206662310-1aa4e7ff-eb6a-4883-a0bc-4b5f55e2562f.jpg" width="100" height="100" style="float:left;">
+  <img src="https://user-images.githubusercontent.com/115203597/206662312-681866a7-bec8-45f3-85e6-a50e3b81048b.jpg" width="100" height="100" style="float:left;">
+  <img src="https://user-images.githubusercontent.com/115203597/206662316-675b23ee-8a59-44c2-bff8-d0eb543cdac8.jpg" width="100" height="100" style="float:left;">
+</div>
 
 ### [C2] Eyebrow with middle distance from the eye:
 Spontaneous.
