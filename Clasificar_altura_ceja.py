@@ -7,12 +7,12 @@ import operator
 import numpy as np
 
 from mediapipe import solutions as mp
+
 try:
  os.system('color 6')
  os.system('cls')
 except:os.system('clear')
 
- 
 print("""
  ./YandexBot_image_recognition.py
   ____              _______ _   ______ _       ___ __    __
@@ -201,5 +201,5 @@ for count, imageName in enumerate(imagesPathList):
 
 webbrowser.open(os.path.realpath(carpeta_salida))
 
-print('Clasificar_Altura_Ceja.py: Programa finalizado.')
+print('clasificar_altura_ceja.py: Programa finalizado.')
 exit()
