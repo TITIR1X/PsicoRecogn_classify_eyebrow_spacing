@@ -13,19 +13,19 @@ If you choose to use "large_scale_face_capturer", you need to correct the angles
 Brief description of the analyzed faces
 "[C1], [C2], [C3]" Represents the name of the folder where it stores the faces with the detected features.
 
-[C1] Eyebrow close to the eye:
+### [C1] Eyebrow close to the eye:
 Expresses emotions.
 Dreamer who shares his dreams.
 Spontaneous.
 Good ability to concentrate on activities.
 
-[C2] Eyebrow with middle distance from the eye:
+### [C2] Eyebrow with middle distance from the eye:
 Spontaneous.
 Flexible.
 Balance between what he says and what he thinks.
 Lacks a little tolerance.
 
-[C3] Eyebrow away from the eye:
+### [C3] Eyebrow away from the eye:
 Reserved person.
 Introverted person.
 Does not transmit much his ideas, does not tell the things he did or did not do, keeps his ideas/thoughts to himself more.
