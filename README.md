@@ -60,3 +60,9 @@ May show dispersion, reverie or distraction.
   <img src="https://user-images.githubusercontent.com/115203597/206661746-e811d1e6-6a51-4924-8eb3-ff54e1ebd47c.jpg" width="100" height="100" style="float:left;">
   <img src="https://user-images.githubusercontent.com/115203597/206661747-b4c4e6ff-2597-4f8c-8c9a-f85880ce3720.jpg" width="100" height="100" style="float:left;">
 </div>
+
+This program was created for a project called PsicoRecogn. The purpose of this project is to capture and analyze the morphopsychology of any user in order to create a detailed profile of their characteristics and provide ultra-personalization in the readings that the user makes. The project will be released gradually and the first mission is to obtain enough data to validate the usefulness of morphopsychology, as there is currently not enough data to prove it.
+
+The programs I created for the project were designed to analyze on a massive scale.
+
+If the PsicoRecogn project proves effective in capturing and analyzing morphopsychology, it could be used in dating applications to match people with complementary psychological profiles.
