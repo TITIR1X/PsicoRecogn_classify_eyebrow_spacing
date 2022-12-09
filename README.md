@@ -32,11 +32,11 @@ Flexible.
 Balance between what he says and what he thinks.
 Lacks a little tolerance.
 
-<img src="https://i.ibb.co/P6PJtXm/0-85-rostro-2160.jpg" width="100" height="100" />
-<img src="https://i.ibb.co/1vFfDdk/0-8-rostro-436.jpg" width="100" height="100" />
-<img src="https://i.ibb.co/XZgCLwb/0-8-rostro-746.jpg" width="100" height="100" />
-<img src="https://i.ibb.co/4465KLR/0-82-rostro-959.jpg" width="100" height="100" />
-<img src="https://i.ibb.co/vHjDTPp/0-82-rostro-2086.jpg" width="100" height="100" />
+<img src="https://i.ibb.co/P6PJtXm/0-85-rostro-2160.jpg" width="100" height="100" style="float:left;"/>
+<img src="https://i.ibb.co/1vFfDdk/0-8-rostro-436.jpg" width="100" height="100" style="float:left;"/>
+<img src="https://i.ibb.co/XZgCLwb/0-8-rostro-746.jpg" width="100" height="100" style="float:left;"/>
+<img src="https://i.ibb.co/4465KLR/0-82-rostro-959.jpg" width="100" height="100" style="float:left;"/>
+<img src="https://i.ibb.co/vHjDTPp/0-82-rostro-2086.jpg" width="100" height="100" style="float:left;"/>
 _
 
 ### [C3] Eyebrow away from the eye:
