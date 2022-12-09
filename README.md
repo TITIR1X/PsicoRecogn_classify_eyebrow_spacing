@@ -31,7 +31,7 @@ Spontaneous.
 Flexible.
 Balance between what he says and what he thinks.
 Lacks a little tolerance.
-<div style="width:100px height="100";">
+<div style="width:100px height:100px;">
   <img src="https://i.ibb.co/P6PJtXm/0-85-rostro-2160.jpg" style="float:left;">
   <img src="https://i.ibb.co/1vFfDdk/0-8-rostro-436.jpg" style="float:left;">
   <img src="https://i.ibb.co/XZgCLwb/0-8-rostro-746.jpg" style="float:left;">
