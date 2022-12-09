@@ -19,6 +19,7 @@ If you choose to use "large_scale_face_capturer", you need to correct the angles
 
 ## Brief description of the analyzed faces
 ### "[C1], [C2], [C3]" Represents the name of the folder where it stores the faces with the detected features.
+In this case, I will use images from Pexels to illustrate the examples.
 
 ### [C1] Eyebrow close to the eye:
 Expresses emotions.
