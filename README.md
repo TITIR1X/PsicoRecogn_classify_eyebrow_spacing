@@ -1,6 +1,8 @@
 # PsicoRecogn_classify_eyebrow_spacing
 The program allows to detect and classify eyebrow-to-eye distances in three categories: near, medium and far. With exceptional accuracy, the program saves the worked images in separate folders according to their classification and provides a document describing the personality trait associated with each folder of faces.
 
+The program is prepared to scan a folder with 500px x 500px images of faces, you can create these 500x500px images with this tool: https://github.com/TITIR1X/capture_face_live
+or this tool: https://github.com/TITIR1X/large_scale_face_capturer
 
 Brief description of the analyzed faces
 
