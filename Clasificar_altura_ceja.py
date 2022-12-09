@@ -198,5 +198,5 @@ for count, imageName in enumerate(imagesPathList):
 
 webbrowser.open(os.path.realpath(carpeta_salida))
 
-print('clasificar_altura_ceja.py: Programa finalizado.')
+print('/nclasificar_altura_ceja.py: Programa finalizado.')
 exit()
