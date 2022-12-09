@@ -1,9 +1,6 @@
 import cv2
 import os
-import shutil
 import webbrowser
-from collections import Counter
-import operator
 import numpy as np
 
 from mediapipe import solutions as mp
@@ -48,7 +45,7 @@ if not os.path.exists(carpeta_salida):
 
 # Se crean las subcarpetas para clasificar las imágenes en diferentes alturas de cejas
 subcarpetas = ['C1', 'C1-C2', 'C2',
-           'C3', 'Otros']
+           'C3', 'others']
 for subcarpeta in subcarpetas:
     try:
         os.makedirs(os.path.join(carpeta_salida, subcarpeta))
@@ -191,8 +188,8 @@ for count, imageName in enumerate(imagesPathList):
                 print(f'    -> {carpeta_salida}/C3')
 
             else:
-                resultado = (f'{carpeta_salida}/Otros/{imagesPathList[count]}')
-                cv2.imwrite(f'{carpeta_salida}/Otros/{imagesPathList[count]}',image)
+                resultado = (f'{carpeta_salida}/others/{imagesPathList[count]}')
+                cv2.imwrite(f'{carpeta_salida}/others/{imagesPathList[count]}',image)
                 
             count+= 1
             
