@@ -31,11 +31,11 @@ Spontaneous.
 Flexible.
 Balance between what he says and what he thinks.
 Lacks a little tolerance.
-![](https://user-images.githubusercontent.com/115203597/206658393-d117d1ee-d971-4723-92a4-ad35ba788d02.jpg =50x50)
-![0 8_rostro_436](https://user-images.githubusercontent.com/115203597/206658399-bccb2337-5bc1-4490-a3dc-3a3ce3c8e354.jpg =50x50)
-![0 8_rostro_746](https://user-images.githubusercontent.com/115203597/206658402-9638999f-4e90-403e-abb3-42beacd9605c.jpg =50x50)
-![0 82_rostro_959](https://user-images.githubusercontent.com/115203597/206658406-0cc28be4-78e2-4198-b70a-2abe4408ba21.jpg =50x50)
-![0 82_rostro_2086](https://user-images.githubusercontent.com/115203597/206658410-71fea970-0c0b-4653-a9b9-d88b4acc5e0d.jpg =50x50)
+<img src="https://i.ibb.co/P6PJtXm/0-85-rostro-2160.jpg" width="100" height="100" />
+<img src="https://i.ibb.co/1vFfDdk/0-8-rostro-436.jpg" width="100" height="100" />
+<img src="https://i.ibb.co/XZgCLwb/0-8-rostro-746.jpg" width="100" height="100" />
+<img src="https://i.ibb.co/4465KLR/0-82-rostro-959.jpg" width="100" height="100" />
+<img src="https://i.ibb.co/vHjDTPp/0-82-rostro-2086.jpg" width="100" height="100" />
 
 
 ### [C3] Eyebrow away from the eye:
