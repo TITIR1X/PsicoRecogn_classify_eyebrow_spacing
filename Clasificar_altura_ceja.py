@@ -14,7 +14,7 @@ try:
 except:os.system('clear')
 
 print("""
- ./YandexBot_image_recognition.py
+ ./Clasificar_altura_ceja.py
   ____              _______ _   ______ _       ___ __    __
  |  _ \            /__   __(_)/__   __(_) _ __|_| |\ \\  / /
  | |_) |_   _         | |   _    | |   _ | '__| | | \ \\/ /
@@ -47,8 +47,8 @@ if not os.path.exists(carpeta_salida):
     os.makedirs(carpeta_salida)
 
 # Se crean las subcarpetas para clasificar las imágenes en diferentes alturas de cejas
-subcarpetas = ['Cejas-dist-baja-al-ojo', 'Cejas-dist-media-o-baja-al-ojo', 'Cejas-dist-media-al-ojo',
-           'Cejas-dist-alta-al-ojo', 'Otros']
+subcarpetas = ['C1', 'C1-C2', 'C2',
+           'C3', 'Otros']
 for subcarpeta in subcarpetas:
     try:
         os.makedirs(os.path.join(carpeta_salida, subcarpeta))
@@ -148,10 +148,10 @@ for count, imageName in enumerate(imagesPathList):
                 cv2.line(image, (65, y_27-13), (250, y_27-13), (33, 255, 0), 1)
                 cv2.putText(image, '13', (65-5,y_27-13), font, 0.3, (33, 255, 0),1, cv2.LINE_AA)
 
-                resultado = (f'{carpeta_salida}/cejas-dist-baja-al-ojo/{imagesPathList[count]}')
+                resultado = (f'{carpeta_salida}/C1/{imagesPathList[count]}')
 
                 cv2.imwrite(resultado, image)
-                print(f'    -> {carpeta_salida}/cejas-dist-baja-al-ojo')
+                print(f'    -> {carpeta_salida}/C1')
 
             # desc_altura: cejas bajas
             elif y_52 >= (y_27-21) or y_65 >= (y_27-21) or y_52 >= (y_27-21) and y_65 >= (y_27-21):
@@ -160,10 +160,10 @@ for count, imageName in enumerate(imagesPathList):
                 cv2.line(image, (65, y_27-21), (250, y_27-21), (33, 255, 0), 1)
                 cv2.putText(image, '21', (65-5,y_27-21), font, 0.3, (33, 255, 0),1, cv2.LINE_AA)
     
-                resultado = (f'{carpeta_salida}/Cejas-dist-media-o-baja-al-ojo/{imagesPathList[count]}')
+                resultado = (f'{carpeta_salida}/C1-C2/{imagesPathList[count]}')
 
                 cv2.imwrite(resultado,image)
-                print(f'    -> {carpeta_salida}/cejas-dist-media-o-baja-al-ojo')
+                print(f'    -> {carpeta_salida}/C1-C2')
                 
     
             # desc_altura: cejas altura media al ojo
@@ -173,10 +173,10 @@ for count, imageName in enumerate(imagesPathList):
                 cv2.line(image, (65, y_27-34), (250, y_27-34), (33, 255, 0), 1)
                 cv2.putText(image, '34', (65-5,y_27-34), font, 0.3, (33, 255, 0),1, cv2.LINE_AA)
 
-                resultado = (f'{carpeta_salida}/cejas-dist-media-al-ojo/{imagesPathList[count]}')
+                resultado = (f'{carpeta_salida}/C2/{imagesPathList[count]}')
         
                 cv2.imwrite(resultado,image)
-                print(f'    -> {carpeta_salida}/cejas-dist-media-al-ojo')
+                print(f'    -> {carpeta_salida}/C2')
                     
             # desc_altura: cejas lejos del ojo
             elif y_52 >= (y_27-55) or y_65 >= (y_27-55) or y_52 >= (y_27-55) and y_65 >= (y_27-55):
@@ -185,10 +185,10 @@ for count, imageName in enumerate(imagesPathList):
                 cv2.line(image, (65, y_27-55), (250, y_27-55), (33, 255, 0), 1)
                 cv2.putText(image, '55', (65-5,y_27-55), font, 0.3, (33, 255, 0),1, cv2.LINE_AA)
 
-                resultado = (f'{carpeta_salida}/cejas-dist-alta-al-ojo/{imagesPathList[count]}')
+                resultado = (f'{carpeta_salida}/C3/{imagesPathList[count]}')
 
                 cv2.imwrite(resultado,image)
-                print(f'    -> {carpeta_salida}/cejas-dist-alta-al-ojo')
+                print(f'    -> {carpeta_salida}/C3')
 
             else:
                 resultado = (f'{carpeta_salida}/Otros/{imagesPathList[count]}')
