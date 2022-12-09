@@ -21,7 +21,7 @@ If you choose to use "large_scale_face_capturer", you need to correct the angles
 ### "[C1], [C2], [C3]" Represents the name of the folder where it stores the faces with the detected features.
 In this case, I will use images from Pexels to illustrate the examples.
 
-### [C1] Eyebrow close to the eye:
+### [C1] Eyebrow close to the eye: Important: C1 can be improved, but I have to extract calculations from another program. But I must rest first.
 Expresses emotions.
 Dreamer who shares his dreams.
 Spontaneous.
@@ -34,7 +34,7 @@ Good ability to concentrate on activities.
   <img src="https://user-images.githubusercontent.com/115203597/206662316-675b23ee-8a59-44c2-bff8-d0eb543cdac8.jpg" width="100" height="100" style="float:left;">
 </div>
 
-### [C2] Eyebrow with middle distance from the eye:
+### [C2] Eyebrow with middle distance from the eye: 
 Spontaneous.
 Flexible.
 Balance between what he says and what he thinks.
