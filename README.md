@@ -1,6 +1,13 @@
 # PsicoRecogn_classify_eyebrow_spacing
 The program allows to detect and classify eyebrow-to-eye distances in three categories: near, medium and far. With exceptional accuracy, the program saves the worked images in separate folders according to their classification and provides a document describing the personality trait associated with each folder of faces.
 
+## Installation: tested in python 3.10.0 | Windows 10
+
+- pip install mediapipe==0.8.11
+
+- pip install opencv-python==4.6.0.66
+
+
 The present program is designed to scan a folder of face images with a size of 500px x 500px. To generate these 500x500px size images, it is recommended to use any of these tools:
 - https://github.com/TITIR1X/capture_face_live
 
