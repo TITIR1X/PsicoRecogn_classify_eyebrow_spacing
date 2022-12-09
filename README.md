@@ -2,12 +2,13 @@
 The program allows to detect and classify eyebrow-to-eye distances in three categories: near, medium and far. With exceptional accuracy, the program saves the worked images in separate folders according to their classification and provides a document describing the personality trait associated with each folder of faces.
 
 The present program is designed to scan a folder of face images with a size of 500px x 500px. To generate these 500x500px size images, it is recommended to use any of these tools:
-https://github.com/TITIR1X/capture_face_live
-https://github.com/TITIR1X/large_scale_face_capturer
+- https://github.com/TITIR1X/capture_face_live
+
+- https://github.com/TITIR1X/large_scale_face_capturer
 
 If you choose to use "large_scale_face_capturer", you need to correct the angles of the captured faces with the following program:
 
-https://github.com/TITIR1X/profile_angles_of_captured_faces
+- https://github.com/TITIR1X/profile_angles_of_captured_faces
 
 Brief description of the analyzed faces
 
