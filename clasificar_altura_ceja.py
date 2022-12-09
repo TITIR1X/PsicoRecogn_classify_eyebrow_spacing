@@ -11,7 +11,7 @@ try:
 except:os.system('clear')
 
 print("""
- ./Clasificar_altura_ceja.py
+ ./clasificar_altura_ceja.py
   ____              _______ _   ______ _       ___ __    __
  |  _ \            /__   __(_)/__   __(_) _ __|_| |\ \\  / /
  | |_) |_   _         | |   _    | |   _ | '__| | | \ \\/ /
@@ -157,10 +157,10 @@ for count, imageName in enumerate(imagesPathList):
                 cv2.line(image, (65, y_27-21), (250, y_27-21), (33, 255, 0), 1)
                 cv2.putText(image, '21', (65-5,y_27-21), font, 0.3, (33, 255, 0),1, cv2.LINE_AA)
     
-                resultado = (f'{carpeta_salida}/C1-C2/{imagesPathList[count]}')
+                resultado = (f'{carpeta_salida}/C1+/{imagesPathList[count]}')
 
                 cv2.imwrite(resultado,image)
-                print(f'    -> {carpeta_salida}/C1-C2')
+                print(f'    -> {carpeta_salida}/C1+')
                 
     
             # desc_altura: cejas altura media al ojo
@@ -198,5 +198,5 @@ for count, imageName in enumerate(imagesPathList):
 
 webbrowser.open(os.path.realpath(carpeta_salida))
 
-print('/nclasificar_altura_ceja.py: Programa finalizado.')
+print('clasificar_altura_ceja.py: Programa finalizado.')
 exit()
