@@ -1,14 +1,17 @@
 import cv2
-import os
 import webbrowser
 import numpy as np
 
 from mediapipe import solutions as mp
 
-try:
- os.system('color 6')
- os.system('cls')
-except:os.system('clear')
+import platform, os
+os_name = platform.system()
+
+if os_name == 'Windows':
+    os.system('cls')
+elif os_name == "Linux":
+    os.system('clear')
+
 
 print("""
  ./clasificar_altura_ceja.py
